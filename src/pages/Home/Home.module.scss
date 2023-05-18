@@ -1,0 +1,12 @@
+.locAndFormContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@media (min-width: 768px){
+    .locAndFormContent{
+        padding: 4rem 0;
+    }
+}
