@@ -40,7 +40,7 @@ function Contact() {
     console.log(form);
     alert('Votre message a bien été envoyé !')
     
-    emailjs.sendForm(VITE_EMAILJS_SERVICE_ID, VITE_EMAILJS_TEMPLATE_ID, form.current, VITE_EMAILJS_PUBLIC_KEY)
+    emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, form.current, import.meta.env.VITE_EMAILJS_PUBLIC_KEY)
       .then((result) => {
           console.log(result.text);
         }, (error) => {
