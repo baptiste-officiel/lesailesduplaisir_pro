@@ -6,7 +6,7 @@ function NavBar() {
     <>
     <div className={styles.navbar}>
       <Link to='/'><h1 className="title">LADP</h1></Link>
-      <Link to='/'><img src="/src/assets/img/logo_ladp.png" alt="Logo" /></Link>
+      <Link to='/'><img src="/logo_ladp.png" alt="Logo" /></Link>
     </div>
     <h2>Les Ailes du Plaisir</h2>
         <h4>Location d'ULM de tourisme</h4>
