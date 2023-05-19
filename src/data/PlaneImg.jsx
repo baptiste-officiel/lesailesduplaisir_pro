@@ -1,37 +1,37 @@
 export const slides = [
     {
         id: 1,
+        url: '/lapd_3.jpg',
+        alt: 'Avion'
+    },
+    {
+        id: 2,
         url: '/plane.jpg',
         alt: 'L\'avion'
     },
     {
-        id: 2,
+        id: 3,
         url: '/full-plane-franck.jpg',
         alt: 'Avion avec pilote'
     },
     {
-        id: 3,
-        url: '/lapd_1.jpeg',
-        alt: 'Avion'
-    },
-    {
         id: 4,
-        url: '/lapd_2.jpeg',
+        url: '/lapd_1.jpg',
         alt: 'Avion'
     },
     {
         id: 5,
-        url: '/lapd_3.jpeg',
+        url: '/lapd_2.jpg',
         alt: 'Avion'
     },
     {
         id: 6,
-        url: '/lapd_5.jpeg',
+        url: '/lapd_5.jpg',
         alt: 'Avion'
     },
     {
         id: 7,
-        url: '/lapd_6.jpeg',
+        url: '/lapd_6.jpg',
         alt: 'Avion'
     },
     {
@@ -46,12 +46,12 @@ export const slides = [
     },
     {
         id: 10,
-        url: '/lapd_7.jpeg',
+        url: '/lapd_8.jpg',
         alt: 'Avion'
     },
     {
         id: 11,
-        url: '/lapd_8.jpeg',
+        url: '/lapd_7.jpg',
         alt: 'Avion'
     },
 ]
