@@ -6,7 +6,8 @@ function Ulm() {
   return (
     <div className={styles.planeContainer}>
       <h3>L'ULM</h3>
-      <Slider />
+      {/* <Slider /> */}
+      <img src="/lapd_3.jpg" alt="Le VL3" />
       <div className={styles.description}>
       <p>Le VL3 est un avion ultra-léger conçu pour offrir des performances élevées tout en étant très efficace en termes d'énergie.</p>
       <Link to='/plane'>En savoir plus</Link>

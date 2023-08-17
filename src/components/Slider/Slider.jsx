@@ -10,10 +10,15 @@ function Slider() {
   return (
     <div className={styles.slider}>
 <Splide options={{
-        perPage:1,
+        perPage:2,
         pagination: false,
         drag: 'free',
         gap: '2rem',
+        breakpoints: {
+          768: {
+            perPage: 1
+          }
+        }
       }}>
         {slides && slides.map((slide) =>
             <SplideSlide key={slide.id}>
